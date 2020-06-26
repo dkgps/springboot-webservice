@@ -58,13 +58,13 @@ var main = {
         });
 
 
-    }
+    },
 
     delete : function(){
         var id = $('#id').val();
 
 
-        $.ajax({
+            $.ajax({
                 type: 'DELETE',
                 url: '/api/v1/posts'+id,
                 dataType: 'json',
@@ -76,7 +76,7 @@ var main = {
             }).fail(function(error) {
                 alert(JSON.stringify(error));
             });
-        }
+    }
 
 };
 
