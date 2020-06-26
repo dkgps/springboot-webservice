@@ -58,7 +58,7 @@ var main = {
         });
 
 
-    }
+    },
 
     delete : function(){
         var id = $('#id').val();
